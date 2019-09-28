@@ -1,0 +1,56 @@
+.container{
+/*	border:3px solid blue;*/
+	width: 100%;
+	min-height: 500px;  /*задає мінімальну висоту елемента*/
+	background-image: url(555.jpg);
+	background-attachment: fixed;
+	/*margin: 70 auto 0;*/
+	display: flex; /*спосіб розміщувати блоки*/
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: -10px;
+}
+
+.container .menu2 a{
+	text-decoration:none;
+	display:flex;
+	/*border: 1px solid yellow;*/
+	/*font:bold 15px tahoma;*/
+	margin-left: 20px;
+	text-align: center;
+	color: black;
+	
+	font-family: brandon-grotesque;
+	font-size: 18px;
+}
+
+.container .menu2 a:hover{
+text-shadow: #3C5924 0 0 10px;
+}
+
+.container .menu2{
+	display:flex;
+	
+}
+
+img{
+	width: 80%;
+	margin: 2% 6% ;
+	border: outset;
+}
+
+.content{
+	/*border:3px solid red;*/
+	/*width: 100%;*/
+	min-height: 500px;  /*задає мінімальну висоту елемента*/
+	/*background: #fff;*/
+	/*margin: 70 auto 0;*/
+	/*display: flex; /*спосіб розміщувати блоки*/
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: -25px;
+	padding-left: 5%;
+	position: static;
+	margin-top: 10px;
+	}
+	

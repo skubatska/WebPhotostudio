@@ -1,0 +1,44 @@
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+    #nav  li {
+        display: none;
+    }
+    
+    #burger {
+        display: inline-block;
+    }
+    
+    #nav:hover #burger {
+        display: none;
+    }
+    
+    #nav:hover li {
+        display: flex;
+		margin-top: -10px;
+		margin-left: 65px;
+		padding-top: 5px;
+		
+		
+    }
+   div.all div.header div.menu{
+		 width:30%;
+		 height: 135px;
+		 margin-left: 70%;
+	}
+	div.all div.we img.image{
+	border-radius: 100px;
+	width: 65%;
+	/*margin-left: 10px;*/
+	/* margin-left: auto;
+    margin-right: auto;*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto;        
+	}
+	
+	div.all div.we div.opus{
+		
+		
+display:absolute;
+	
+	}
+}

@@ -1,0 +1,140 @@
+div.all{
+	font-family: brandon-grotesque;
+	background-color: #F7F6F5;
+	/*letter-spacing: 5px;*/
+	position: relative;
+	width: 100%;
+    height: 100%;
+    margin: 0;
+	color: #293835;
+	letter-spacing: 4px;        /*відступ між буквами*/
+}
+
+div.all div.header{
+	background-color: white;
+	/*border:1px solid red;*/
+	height: 150px;
+	margin-top: 20px;
+}
+
+div.all div.header p{
+	margin-left: 5%;
+}
+div.all div.header p.logo{
+	text-transform: uppercase; /* Заглавные буквы */
+	font-size: 30px;
+}
+div.all div.header p.logo2{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+div.all div.header div.menu{
+	/*border: 1px solid orange;*/
+	background-color: #F7F6F5;
+	width: 60%;
+	height:100px;
+	margin-left: 40%;
+	margin-top: -135px;
+	text-align: center;
+	font-size: 13px;
+	text-transform: uppercase; /* Заглавные буквы */
+	/*letter-spacing: 4px;       /*відступ між буквами*/
+}
+
+div.all div.header div.menu ul li a{
+	text-decoration:none;
+	float:left;
+	margin-left: 10%;
+}
+
+div.all div.header div.menu ul li a:hover{
+	text-shadow: #3C5924 0 0 10px;
+}
+
+div.all div.header div.menu ul{
+	list-style:none;
+}
+div.all div.aboutUs{
+	background-image: url(fon.png);
+	/*border:1px solid blue;*/
+}
+
+/*============================*/
+
+.container{
+	/*border:3px solid blue;*/
+	width: 100%;
+	min-height: 500px;  /*задає мінімальну висоту елемента*/
+	/*background: #fff;*/
+	margin: 70 auto 0;
+	display: flex; /*спосіб розміщувати блоки*/
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: -25px;
+	padding-left: 5%;
+	/*background-color: black;*/
+/*	opacity: 0.5; /* Полупрозрачный фон */
+	background-image: url(555.jpg);
+	background-attachment: fixed;
+}
+
+.container .box{
+	position: relative;
+	width: 280px;
+	height: 280px;
+	background:#FFDD00;
+	margin: 9px;
+	box-sizing: border-box;/*для изменения алгоритма расчета ширины и высоты элемента.*/
+	display: inline-block;
+	text-align:center;
+	}
+	
+.container .box .imgBox {
+	position: relative;
+	overflow: hidden;/*не виходить за межі*/
+	}
+	
+.container .box .imgBox img{
+	max-width: 100%;
+	transition: transform 2s;/*Универсальное свойство, которое позволяет одновременно задать значения transition-property, transition-duration, transition-timing-function и transition-delay. Устанавливает эффект перехода между двумя состояниями элемента,они могут быть определены с помощью псевдоэлемента :hover или :active*/
+	}
+	
+.container .box:hover .imgBox img{
+	transform: scale(1.2);/*збільшення зображення*/
+}
+
+.container .box .details{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0, 0, 0, .8);
+	transform: scaleY(0);
+	transform: transform .5s;
+	text-align:center;
+}
+
+.container .box:hover .details{
+	transform: scaleY(1);
+	 transition: 1s;/*трансформація ефект*/
+	 text-align:center;
+}
+
+.container .box .details .content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);/*можно выровнять по вертикали все, что угодно, даже не зная высоты элемента.*/
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+	}
+	
+.container .box .details .content h2{
+	margin: 0px;
+	padding: 0px;
+	font-size: 50px;
+	color:  #3C5924;
+	text-align:center;
+}

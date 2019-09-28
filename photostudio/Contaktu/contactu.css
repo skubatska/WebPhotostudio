@@ -1,0 +1,139 @@
+div.all{
+	font-family: brandon-grotesque;
+	background-color: #F7F6F5;
+	/*letter-spacing: 5px;*/
+	position: relative;
+	width: 100%;
+    height: 100%;
+    margin: 0;
+	color: #293835;
+	letter-spacing: 4px;        /*відступ між буквами*/
+}
+
+div.all div.header{
+	background-color: white;
+	/*border:1px solid red;*/
+	height: 150px;
+	margin-top: 20px;
+}
+
+div.all div.header p{
+	margin-left: 5%;
+}
+div.all div.header p.logo{
+	text-transform: uppercase; /* Заглавные буквы */
+	font-size: 30px;
+}
+div.all div.header p.logo2{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+div.all div.header div.menu{
+	/*border: 1px solid orange;*/
+	background-color: #F7F6F5/*#EBEAE9*/;
+	width: 60%;
+	height:100px;
+	margin-left: 40%;
+	margin-top: -135px;
+	text-align: center;
+	font-size: 13px;
+	text-transform: uppercase; /* Заглавные буквы */
+	/*letter-spacing: 4px;       /*відступ між буквами*/
+}
+
+div.all div.header div.menu ul li a{
+	text-decoration:none;
+	float:left;
+	margin-left: 10%;
+}
+
+div.all div.header div.menu ul li a:hover{
+	text-shadow: #3C5924 0 0 10px;
+}
+
+div.all div.header div.menu ul{
+	list-style:none;
+}
+div.all div.contactUs{
+	background-image: url(fon1.png);
+	/*border:1px solid violet;*/
+	/*height: 200px;*/
+	display: flex;
+}
+
+div.all div.contactUs div.photo{
+	/*border:1px solid green;	*/
+	width: 55%;
+	padding-left: 5%;
+	margin-right:20px;
+}
+div.all div.contactUs div.photo img.image{
+	width: 100%;
+}
+
+div.all div.contactUs div.infa{
+	/*border:1px solid yellow;*/
+	width: 20%;
+	padding-left: 30px;	
+	padding-top: 5%;
+}
+
+div.all div.contactUs div.infa p.z{
+	text-transform: uppercase; /* Заглавные буквы */
+	font-size: 20;
+	letter-spacing: 2px;
+}
+
+div.all div.contactUs div.infa p.d{
+	font-size: 18;
+}
+
+div.all div.message{
+	/*border:1px solid blue;*/
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+}
+div.all div.message form{
+	
+}
+
+div.all div.message input#input{
+	width: 100%;
+	height: 30px;
+	font-size: 18;
+	letter-spacing: 3px;
+	margin-top: -15px;
+}
+
+div.all div.message input#input2{
+	width: 100%;
+	height: 100px;
+	font-size:18;
+	letter-spacing: 3px;
+	margin-top: -15px;
+}
+
+div.all div.message input#send{
+	width: 180px;
+	height: 40px;
+	font-size: 14;
+	letter-spacing: 3px;
+	margin-top:10px;
+	background-color: white;
+}
+
+div.all div.message input#send:hover{
+	text-shadow: #3C5924 0 0 10px;
+}
+
+div.all div.bottom{
+	background-color:#E1E1E1;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*border: 1px solid orange;*/
+}
+
+
